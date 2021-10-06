@@ -1,0 +1,77 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-teal{
+	background: rgb(13, 91, 91);
+}
+
+.text{
+	margin-top: 200px;
+}
+
+
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px ;
+    cursor: pointer;
+    border-radius: 0%;
+}
+
+
+.carousel-caption{
+bottom: 200px;
+
+}
+
+
+
+.text-teal{
+	color: rgb(13, 91, 91); 
+}
+
+
+
+@media (max-width: 576px) {
+	.carousel-caption{
+		bottom: 5px;
+	}
+.carousel-caption h1{
+	font-size: 20px;
+}
+.carousel-caption p{
+    display: none;
+}
+
+}
+
+
+
+.submit-btn{
+	border: none;
+	outline: none;
+	padding: 10px 35px;
+	color: white;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
